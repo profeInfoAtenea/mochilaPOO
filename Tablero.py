@@ -7,12 +7,6 @@ class Tablero(object):
   :author:
   """
 
-  """ ATTRIBUTES
-
-  celdas  (private)
-
-  """
-
   def __init__(self, filas, columnas):
     self.__filas = filas
     self.__columnas = columnas
